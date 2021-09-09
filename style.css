@@ -112,6 +112,7 @@ label {
     display: block;
     width: 663px;
     height: 160px;
+    padding: 0 10px;
     border-radius: 5px;
     border: 1px solid #0D0C0C
 }

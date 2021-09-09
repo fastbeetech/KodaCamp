@@ -61,7 +61,7 @@ body {
 .card-2 p {
     font-size: 18px;
     font-weight: 400;
-    padding: 20px 0q;
+    padding: 20px 0;
 }
 
 .container {
@@ -84,10 +84,9 @@ body {
 }
 
 .contact-header {
-    font-size: 30px;
+    font-size: 50px;
     font-weight: 500;
     line-height: 59px;
-    letter-spacing: 0em;
     text-align: left;
 }
 
@@ -129,3 +128,4 @@ label {
     font-weight: 700;
     position: absolute;
     right: -15px;
+}

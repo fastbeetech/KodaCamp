@@ -76,7 +76,7 @@ body {
 .form-container {
     height: 657px;
     width: 852px;
-    padding: 2em 5em;
+    padding: 3em 0;
     border-radius: 10px;
     background: #FFFFFF;
     box-shadow: 0px 4px 4px 0px #00000040;
@@ -118,7 +118,7 @@ label {
 
 form {
     display: block;
-    width: 90%;
+    width: 80%;
     margin: auto;
 }
 

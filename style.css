@@ -86,12 +86,10 @@ body {
 .contact-header {
     font-size: 50px;
     font-weight: 500;
-    line-height: 59px;
     text-align: left;
 }
 
 .form-group {
-    /* padding: 0 2em; */
     margin: 30px auto;
 }
 
@@ -104,14 +102,28 @@ label {
 
 .form-control {
     display: block;
-    width: 100%;
-    padding: 10px;
+    height: 43px;
+    width: 663px;
+    border-radius: 5px;
+    border: 1px solid #0D0C0C
+}
+
+.text-area {
+    display: block;
+    width: 663px;
+    height: 160px;
+    border-radius: 5px;
+    border: 1px solid #0D0C0C
+}
+
+form {
+    display: block;
+    width: 90%;
+    margin: auto;
 }
 
 .btn-group {
     margin: 30px auto;
-    /* display: flex;
-    justify-content: flex-end; */
     position: relative;
 }
 
@@ -127,5 +139,5 @@ label {
     font-size: 20px;
     font-weight: 700;
     position: absolute;
-    right: -15px;
+    margin-left: 450px;
 }

@@ -6,24 +6,27 @@
     font-weight: 500;
     src: url(https://fonts.gstatic.com/s/playfairdisplay/v22/nuFkD-vYSZviVYUb_rj3ij__anPXDTnojEk72xU.woff2) format('woff2');
     unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
-  }
+}
 
-body, section, div {
+body,
+section,
+div {
     padding: 0px;
     margin: 0px;
 }
+
 body {
- /* background: #000; */
- padding: 0;
+    /* background: #000; */
+    padding: 0;
 }
+
 body,
 .btn,
 label,
 select,
 input,
 textarea,
-section
-h4,
+section h4,
 h5,
 h6 {
     font-family: "Roboto", "Arial", "sans-serif";
@@ -42,16 +45,19 @@ h6 {
     height: 100vh;
     position: relative;
 }
+
 .card-1 {
     position: absolute;
     bottom: 20px;
 }
+
 .box {
     width: 85%;
     display: flex;
     margin: 2px auto;
     align-items: center;
 }
+
 .p-about {
     flex: 3;
     color: #fff;
@@ -59,6 +65,7 @@ h6 {
     font-weight: 700;
     text-align: left;
 }
+
 .p-box {
     background: #fff;
     flex: 7;
@@ -68,14 +75,16 @@ h6 {
     font-size: 1rem;
     text-transform: none;
 }
+
 /* Stage 2 */
 .stage-2 {
     height: 80vh;
     width: 100%;
-    background: #D9B1B3 ;
+    background: #D9B1B3;
     color: #fff;
 }
-.custom-h6{
+
+.custom-h6 {
     font-style: italic;
     font-size: 1.875rem;
     line-height: 1.6;
@@ -83,6 +92,7 @@ h6 {
     font-family: "Playfair Display", serif;
     padding: 20px 0;
 }
+
 .card-2 {
     width: 80%;
     padding: 40px auto;
@@ -90,41 +100,48 @@ h6 {
     margin: auto;
     font-size: 1rem;
 }
-.w-50 { 
+
+.w-50 {
     width: 50%;
     font-family: "Lato", serif;
     font-size: 18px;
 }
+
 .stage-3 {
     display: grid;
     /* flex-direction: column; */
     grid-template-columns: 1fr 1fr 1fr;
     width: 100%;
 }
+
 .stage-3 img {
     width: 100%;
     height: 522px;
 }
+
 /* stage 4 */
 .stage-4 {
     height: 50vh;
     width: 100%;
-    background: #D9B1B3 ;
+    background: #D9B1B3;
     color: #fff;
 }
-.stage-4 h1{
+
+.stage-4 h1 {
     font-size: 3.5rem;
     font-weight: 700;
     font-family: "Playfair Display", Arial, serif;
     font-style: italic;
     text-align: center;
 }
+
 .stage-4 h3 {
     font-weight: 400;
     text-align: center;
     font-family: "Lato", serif;
     font-size: 24px;
 }
+
 /* form {
     display: block;
     width: 80%;
@@ -139,7 +156,7 @@ h6 {
     margin-top: 60px;
 }
 
-.form-group input{
+.form-group input {
     margin: 10px;
     padding: 12px 10px;
     outline: none;
@@ -149,27 +166,32 @@ h6 {
     width: 200px;
     border-radius: 25px;
 }
+
 .form-btn {
-     background: #000000;
-     color: #fff;
+    background: #000000;
+    color: #fff;
 }
 
 /* stage 5 */
-.stage-5{
+.stage-5 {
     padding: 5em;
 }
-.card-5{
+
+.card-5 {
     display: flex;
     align-items: center;
 }
+
 .img-box {
     flex: 4;
     margin: 10px;
 }
+
 .img-box img {
     width: 100%;
     height: 600px;
 }
+
 .description {
     margin: 10px;
     font-family: "Lato", Arial, serif;
@@ -177,7 +199,42 @@ h6 {
     line-height: 1.6;
     flex: 6;
 }
+
 .description img {
     margin: 60px 0 0 0;
     width: 300px;
+}
+
+.stage-6 {
+    height: 70vh;
+    width: 100%;
+    background: #D9B1B3;
+    color: #fff;
+}
+
+.stage-6 h1 {
+    font-size: 3.5rem;
+    font-weight: 700;
+    font-family: "Playfair Display", Arial, serif;
+    font-style: italic;
+    text-align: center;
+}
+
+.card-6 {
+    display: grid;
+    grid-template-columns: repeat(4, 250px);
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    gap: 10px;
+    margin: auto;
+}
+
+.card-6 img {
+    width: 100%;
+    display: block;
+    margin: 5px;
+    /* max-width: 25%; */
+    max-height: 320px;
+    min-height: 320px;
 }

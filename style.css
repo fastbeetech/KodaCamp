@@ -4,7 +4,7 @@ body {
     font-family: 'Roboto', sans-serif;
     background: #F9FCFC;
     max-height: 1626px;
-    max-width: 1152px;
+    /* max-width: 1152px; */
     padding: 0 2rem;
     border-radius: 0px;
     color: #0D0C0C;
@@ -55,7 +55,7 @@ body {
 .card-2 p {
     font-size: 18px;
     font-weight: 400;
-    padding: 20px 0;
+    padding: 5px 0;
 }
 
 .container {

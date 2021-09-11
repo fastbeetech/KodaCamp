@@ -8,4 +8,4 @@
 ### Task Two
 [Task Two Preview Link](https://fastbeetech.github.io/KodaCamp/stage_2_task/index.html)
 
-> KodaCamp Internship 2021
+> KodaCamp Training 2021

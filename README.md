@@ -1,4 +1,4 @@
-# KodaCamp
+# KodeCamp
 
 ## Link to Tasks
 
@@ -8,4 +8,4 @@
 ### Task Two
 [Task Two Preview Link](https://fastbeetech.github.io/KodaCamp/stage_2_task/index.html)
 
-> KodaCamp Training 2021
+> KodeCamp Training 2021

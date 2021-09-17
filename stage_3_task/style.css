@@ -66,7 +66,6 @@ svg:not(:root) {
 
 .content {
 	padding: 40px 0 0;
-	/* flex: 1; */
 	position: relative;
 	box-sizing: border-box;
 }
@@ -82,13 +81,23 @@ svg:not(:root) {
 	padding: 0;
 	color: #fff;
 }
+
+.icons .row {
+	display: flex;
+	flex-direction: row;
+}
+
+.icons .cols {
+	flex: 1;
+}
+
 .container-hero {
 	display: flex;
 	flex-direction: column;
 	max-width: 50%;
 	box-sizing: border-box;
-	border: 1px solid black;
 }
+
 .icons svg {
 	color: #fff;
 }
@@ -198,7 +207,7 @@ h5,
 h6 {
 	font-family: "Roboto", sans-serif;
 	padding: 0;
-	margin:0;
+	margin: 0;
 }
 
 .c-3 h2 {

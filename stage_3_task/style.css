@@ -96,6 +96,9 @@ svg:not(:root) {
 	flex-direction: column;
 	max-width: 50%;
 	box-sizing: border-box;
+	position: absolute;
+	left: 60px;
+	top: 100px;
 }
 
 .icons svg {
@@ -124,7 +127,7 @@ svg:not(:root) {
 	transform-origin: left center;
 	margin: 30px auto 0 0;
 	border: 11px solid #fff;
-	width: 100%;
+	width: 300px;
 	border-right-width: 0;
 	border-left-width: 0;
 	border-bottom-width: 0;

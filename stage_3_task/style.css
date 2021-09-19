@@ -10,6 +10,7 @@ body {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 1rem;
 	line-height: 1.6;
+	scroll-behavior: smooth;
 }
 
 .header {
@@ -543,4 +544,94 @@ footer a {
 .small-text {
 	color: #fff;
 	font-size: 0.8rem;
+}
+
+/*  Tablet Screen */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+
+	body {
+		font-family: "Roboto", "Arial", "sans-serif";
+		color: #333;
+		-webkit-font-smoothing: antialiased;
+		-webkit-text-size-adjust: 100%;
+		font-size: 14px;
+		line-height: 1.43;
+		background-color: #fff;
+		scroll-behavior: smooth;
+	}
+
+	.hero {
+		background-position: 34.74% 0%;
+	}
+
+	.container-hero {
+		display: flex;
+		flex-direction: column;
+		max-width: 50%;
+		box-sizing: border-box;
+		position: absolute;
+		left: 60px;
+		top: 280px;
+	}
+
+	.c-2 h5 {
+		margin: 130px auto 0;
+		margin-top: 60px;
+		margin-left: 190px;
+		margin-right: 190px;
+		font: size 1.125em;
+	}
+
+	.container-1 {
+		display: grid;
+		width: 80%;
+		grid-template-columns: repeat(1, 1fr);
+		margin: 70px auto 0px;
+	}
+	.p-text{
+		font-size: 1.4rem;;
+	}
+
+	.row {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		width: 100%;
+	}
+
+	.c-2 h5 {
+		font-size: 1.47rem;
+		font-weight: 400;
+		letter-spacing: 3px;
+	}
+
+	.c-2 h1 {
+		font-size: 4rem;
+		font-weight: 700;
+		color: #000000;
+		margin: 20px auto;
+	}
+
+	.c-2 p {
+		font-size: 1.7rem;
+		font-weight: 300;
+	}
+	.cols {
+		width: 100%;
+	}
+	.c-7 {
+		flex-direction: column;
+		align-items: unset;
+		width: 90%;
+		padding: 40px 10px;
+	}
+	.item h6 {
+		font-size: 1.4rem;
+	}
+	.flex-item {
+		flex: 1;
+	}
+	.grid-img {
+		margin: 60px 0;
+	}
 }

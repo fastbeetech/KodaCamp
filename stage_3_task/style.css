@@ -618,6 +618,10 @@ footer a {
 		min-height: 532px;
 	}
 
+	.container {
+		width: 100%;
+	}
+
 	.c-2 .text-gray {
 		text-align: center;
 		letter-spacing: 2px;
@@ -788,6 +792,10 @@ footer a {
 		font-weight: 400;
 		font-size: 3.75rem;
 		padding: 0;
+	}
+
+	.small-text {
+		width: unset;
 	}
 }
 

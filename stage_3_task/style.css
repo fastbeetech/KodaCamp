@@ -794,8 +794,12 @@ footer a {
 		padding: 0;
 	}
 
-	.small-text {
-		width: unset;
+	footer p.small-text {
+		width: 100%;
+		margin: 49px 0;
+		font-size: 0.875rem;
+		word-wrap: break-word;
+		display: inline-block;
 	}
 }
 

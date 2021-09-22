@@ -15,6 +15,7 @@ body {
 	line-height: 1.6;
 	background: #fff;
 	scroll-behavior: smooth;
+	-webkit-font-smoothing: antialiased;
 }
 
 .header {
@@ -67,9 +68,7 @@ svg:not(:root) {
 	color: #111111;
 	height: 100vh;
 	margin: 0;
-	/*  */
 	object-fit: cover;
-	vertical-align: middle;
 	background-size: cover;
 	background-repeat: no-repeat;
 }
@@ -558,10 +557,7 @@ footer a {
 	body {
 		width: 100%;
 		font-size: 1rem;
-		line-height: 1.6;
-		margin: 0;
-		padding: 0;
-		scroll-behavior: smooth;
+		line-height: 1.4;
 	}
 
 	header .header {
@@ -724,8 +720,8 @@ footer a {
 	}
 
 	.con-6 {
-		margin: 60px auto 20px;
-		width: 75%;
+		margin: 60px 0 20px;
+		width: 100%;
 	}
 
 	.con-6 h1 {
@@ -791,12 +787,10 @@ footer a {
 @media (min-width: 700px) and (max-width: 995px) {
 	body {
 		font-family: "Roboto", "Arial", "sans-serif";
-		-webkit-font-smoothing: antialiased;
 		width: 100%;
 		font-size: 14px;
 		line-height: 1.43;
 		background-color: #fff;
-		scroll-behavior: smooth;
 	}
 
 	.hero {

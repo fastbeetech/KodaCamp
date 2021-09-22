@@ -561,7 +561,6 @@ footer a {
 	}
 
 	header .header {
-		width: 100%;
 		max-width: 100%;
 		padding: 20px 10px;
 		line-height: 1.43;
@@ -821,7 +820,7 @@ footer a {
 	}
 
 	.hero .content .line {
-		width: 489px;
+		width: 100%;
 	}
 
 	.icons h5 {

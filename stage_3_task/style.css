@@ -885,9 +885,12 @@ footer a {
 		width: unset;
 		margin: 0;
 	}
-	.c-3 h5, .c-3 h2 {
+
+	.c-3 h5,
+	.c-3 h2 {
 		line-height: 1.1;
 	}
+
 	.cols {
 		width: 100%;
 	}
@@ -900,12 +903,13 @@ footer a {
 		font-size: 3.125rem;
 		line-height: 1.1;
 	}
-	 .con-6 {
-		width: 70%;
+
+	.con-6 {
+		width: 80%;
 		padding: 20px 0;
-		margin: 20px 0;
+		margin: 20px auto;
 		box-sizing: border-box;
-	 }
+	}
 
 	.c-7 {
 		flex-direction: column;

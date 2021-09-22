@@ -9,7 +9,7 @@
 body {
 	margin: 0;
 	padding: 0;
-	width: 100%;
+	max-width: 100%;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 1rem;
 	line-height: 1.6;
@@ -583,8 +583,8 @@ footer a {
 		max-width: 100%;
 		box-sizing: border-box;
 		position: absolute;
-		left: 60px;
-		top: 400px;
+		left: 10px;
+		top: 550px;
 	}
 
 	.icons {
